@@ -1,0 +1,97 @@
+* {
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+
+/* Global */
+.color-primary {
+    color: #bd5d38;
+}
+
+
+.menu {
+    position: fixed;
+}
+
+aside {
+    background-color: #bd5d38;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside .menu-content {
+
+}
+
+aside img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    min-height: 100vh;
+
+    border-bottom: 1px solid rgba(0,0,0, 0.3);
+}
+
+#intro .content h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: #343a40;
+    margin-bottom: -20px;
+}
+
+#intro .content h1 .surname {
+    color: #bd5d38;
+}
+
+#intro .content .contact {
+    font-size: 26px;
+    font-weight: 500;
+}
+#intro .content .info {
+    font-size: 20px;
+}
+#intro .content .contact, #intro .content .info {
+    color: #868e96;
+}
+
+#intro .content .contact a:hover {
+    color: #8b462b;
+}
+
+#intro .content .social-icons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#intro .content .social-icons li {
+    margin-right: 20px;
+}
+
+#intro .content .social-icons li a {
+    padding: 10px;
+    background-color: #495057;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 25px;
+}
+#intro .content .social-icons li a:hover {
+    background-color: #bd5d38;
+}
